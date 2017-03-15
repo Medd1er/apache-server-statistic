@@ -24,5 +24,4 @@ Bash script for Zabbix-agent on remote host
       > systemctl restart zabbix-agent
        
    6. Import **template-apache-statistic.xml**
-   7. Import **screen-apache-statistic.xml**
-   8. Enjoy!
+   7. Enjoy!
