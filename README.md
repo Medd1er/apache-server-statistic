@@ -11,7 +11,7 @@ Bash script for Zabbix-agent on remote host
    3. Grant access for Zabbix user to script directory
       and script itself
       
-      > chown root:zabbix -R /etc/zabbix/scripts
+      > chown root:zabbix /etc/zabbix/scripts
       
       > chmod 550 -R /etc/zabbix/scripts
       
