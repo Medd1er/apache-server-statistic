@@ -16,7 +16,7 @@ Bash script for Zabbix-agent on remote host
       
    3. Add UserParameter in zabbix_agent.conf (you can place it as well after "UnsafeUserParameters")
       
-      > UserParameter=apache2[*],/etc/zabbix/scripts/apache_server_statistic.sh $1
+      > UserParameter=apache2[*],/etc/zabbix/scripts/apache_server_statistic.sh "none" "$1" "$2"
          
    4. Restart the Zabbix agent (according to your installation)
       
