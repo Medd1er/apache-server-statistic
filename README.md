@@ -10,9 +10,9 @@ Bash script for Zabbix-agent on remote host
    2. Grant access for Zabbix user to script directory
       and script itself
       
-      > chown root:zabbix /etc/zabbix/scripts
+      > chown root:zabbix -R /etc/zabbix/scripts
       
-      > chmod 550 -R /etc/zabbix/scripts/apache_server_statistic.sh
+      > chmod 550 /etc/zabbix/scripts/apache_server_statistic.sh
       
    3. Add UserParameter in zabbix_agent.conf (you can place it as well after "UnsafeUserParameters")
       
