@@ -7,21 +7,20 @@ Bash script for Zabbix-agent on remote host
       on the remote Apache server with working zabbix agent
    1. Configure paths for variables (if necessary)
       (by default script ueses default directory for openvpn logs)
-   2. Grant access for Zabbix user to openvpn logfile
-   3. Grant access for Zabbix user to script directory
+   2. Grant access for Zabbix user to script directory
       and script itself
       
       > chown root:zabbix /etc/zabbix/scripts
       
       > chmod 550 -R /etc/zabbix/scripts/apache_server_statistic.sh
       
-   4. Add UserParameter in zabbix_agent.conf (you can place it as well after "UnsafeUserParameters")
+   3. Add UserParameter in zabbix_agent.conf (you can place it as well after "UnsafeUserParameters")
       
       > UserParameter=apache2[*],/etc/zabbix/scripts/apache_server_statistic.sh $1
          
-   5. Restart the Zabbix agent (according to your installation)
+   4. Restart the Zabbix agent (according to your installation)
       
       > systemctl restart zabbix-agent
        
-   6. Import **template-apache-statistic.xml**
-   7. Enjoy!
+   5. Import **template-apache-statistic.xml**
+   6. Enjoy!
