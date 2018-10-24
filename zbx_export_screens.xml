@@ -25,7 +25,7 @@
                     <sort_triggers>0</sort_triggers>
                     <resource>
                         <name>Accesses</name>
-                        <host>mt4-dynamics-api</host>
+                        <host>{{HOSTNAME}}</host>
                     </resource>
                     <max_columns>3</max_columns>
                     <application/>
@@ -47,7 +47,7 @@
                     <sort_triggers>0</sort_triggers>
                     <resource>
                         <name>Apache CPU load</name>
-                        <host>mt4-dynamics-api</host>
+                        <host>{{HOSTNAME}}</host>
                     </resource>
                     <max_columns>3</max_columns>
                     <application/>
@@ -69,7 +69,7 @@
                     <sort_triggers>0</sort_triggers>
                     <resource>
                         <name>Avarage Bytes per request</name>
-                        <host>mt4-dynamics-api</host>
+                        <host>{{HOSTNAME}}</host>
                     </resource>
                     <max_columns>3</max_columns>
                     <application/>
@@ -91,7 +91,7 @@
                     <sort_triggers>0</sort_triggers>
                     <resource>
                         <name>Avarage Bytes per sec</name>
-                        <host>mt4-dynamics-api</host>
+                        <host>{{HOSTNAME}}</host>
                     </resource>
                     <max_columns>3</max_columns>
                     <application/>
@@ -113,7 +113,7 @@
                     <sort_triggers>0</sort_triggers>
                     <resource>
                         <name>Avarage Requests</name>
-                        <host>mt4-dynamics-api</host>
+                        <host>{{HOSTNAME}}</host>
                     </resource>
                     <max_columns>3</max_columns>
                     <application/>
@@ -135,7 +135,7 @@
                     <sort_triggers>0</sort_triggers>
                     <resource>
                         <name>BusyWorkers</name>
-                        <host>mt4-dynamics-api</host>
+                        <host>{{HOSTNAME}}</host>
                     </resource>
                     <max_columns>3</max_columns>
                     <application/>
@@ -157,7 +157,7 @@
                     <sort_triggers>0</sort_triggers>
                     <resource>
                         <name>IdleWorkers</name>
-                        <host>mt4-dynamics-api</host>
+                        <host>{{HOSTNAME}}</host>
                     </resource>
                     <max_columns>3</max_columns>
                     <application/>
@@ -179,7 +179,7 @@
                     <sort_triggers>0</sort_triggers>
                     <resource>
                         <name>kbytes</name>
-                        <host>mt4-dynamics-api</host>
+                        <host>{{HOSTNAME}}</host>
                     </resource>
                     <max_columns>3</max_columns>
                     <application/>
@@ -201,7 +201,7 @@
                     <sort_triggers>0</sort_triggers>
                     <resource>
                         <name>Total Slots</name>
-                        <host>mt4-dynamics-api</host>
+                        <host>{{HOSTNAME}}</host>
                     </resource>
                     <max_columns>3</max_columns>
                     <application/>
@@ -223,7 +223,7 @@
                     <sort_triggers>0</sort_triggers>
                     <resource>
                         <name>Uptaime Apache</name>
-                        <host>mt4-dynamics-api</host>
+                        <host>{{HOSTNAME}}</host>
                     </resource>
                     <max_columns>3</max_columns>
                     <application/>
